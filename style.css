@@ -37,7 +37,7 @@ body{
 }
 .banner{
     position: relative;
-    background: url(imagens/casal1rep.jpg) no-repeat center center/cover;
+    background: url(casal1rep.jpg) no-repeat center center/cover;
     padding: 120px 1rem 4rem;
 }
 .banner::after{
