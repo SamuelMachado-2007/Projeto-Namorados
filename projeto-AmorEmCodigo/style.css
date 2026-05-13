@@ -55,5 +55,9 @@ body{
 .detalhes{
     margin: 10px, 0;
     font-size: 12px;
-    color: #E5E5E5;
+    color: #B3B3B3;
+}
+.descricao{
+    color: red;
+    padding: 20px;
 }
