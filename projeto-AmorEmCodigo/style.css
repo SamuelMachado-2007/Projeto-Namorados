@@ -4,13 +4,17 @@
   font-style: normal;
   font-size: 50px;
   margin: 0;
+  color: white;
 }
 
 body{
     margin: 0;
     background-color: #000000;
-    font-family: 'roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
+}
+.botoes button{
+    color: red;
 }
 .cabecalho{
     background-color: #181818;
@@ -38,7 +42,7 @@ body{
 }
 .banner::after{
     content: '';
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.096),rgba(0, 0, 0, 0.411));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.13),rgba(0, 0, 0, 0.575));
     position: absolute;
     top: 0;
     right: 0;
@@ -56,8 +60,11 @@ body{
     margin: 10px, 0;
     font-size: 12px;
     color: #B3B3B3;
+
 }
 .descricao{
-    color: red;
-    padding: 20px;
+    color:#E5E5E5;
+    line-height: 25px;
+    
 }
+
