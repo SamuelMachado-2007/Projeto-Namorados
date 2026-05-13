@@ -1,0 +1,70 @@
+.titulo{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 0;
+  color: white;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.botoes button{
+    color: red;
+}
+.cabecalho{
+    background-color: #181818;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.cabecalho nav{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cabecalho nav a{
+    color: #E5E5E5;
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    background: url(casal1rep.jpg) no-repeat center center/cover;
+    padding: 120px 1rem 4rem;
+}
+.banner::after{
+    content: '';
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.13),rgba(0, 0, 0, 0.575));
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.conteudo{
+    position: relative;
+    max-width: 100%;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.detalhes{
+    margin: 10px, 0;
+    font-size: 12px;
+    color: #B3B3B3;
+
+}
+.descricao{
+    color:#E5E5E5;
+    line-height: 25px;
+    
+}
+
