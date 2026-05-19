@@ -40,9 +40,6 @@
     <i class="fa-solid fa-star" style="color: #E50914;"></i></span>
     <p class="descricao">Neste Dia dos Namorados, celebramos um dos sentimentos mais bonitos que existem: o amor. Amar é compartilhar sonhos, construir memórias e encontrar felicidade nas pequenas coisas do dia a dia. É nos gestos simples, nos olhares sinceros e nas palavras cheias de carinho que o amor se fortalece e se torna ainda mais especial.
     Ter alguém para dividir momentos, apoiar nas dificuldades e sorrir nas conquistas faz toda a diferença. O amor verdadeiro é aquele que inspira, acolhe e transforma, trazendo mais cor, esperança e sentido para a vida.
-    Que esta data seja um lembrete da importância de valorizar quem faz o coração bater mais forte, de demonstrar carinho sem medo e de celebrar cada instante vivido ao lado de alguém especial.
-    Neste Dia dos Namorados, que não faltem abraços apertados, palavras sinceras, risos compartilhados e a certeza de que o amor, quando cultivado com respeito, cuidado e dedicação, é uma das maiores riquezas que podemos ter.
-    Feliz Dia dos Namorados! Que o amor continue florescendo, iluminando caminhos e tornando cada história ainda mais bonita
         </p>
             </p>
             <div class="botoes">
@@ -53,19 +50,40 @@
     </section>
     <section class="momentos">
         <h2>Nossos Melhores Momentos</h2>
-            <!-- Slider main container -->
     <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="casal2Repo.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="casal2Repo.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="casal2Repo.jpg" alt=""></div>
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="casal2Repo.jpg"></div>
+        <div class="swiper-slide"><img src="casal1 (2).jpg"></div>
+        <div class="swiper-slide"><img src="casal2 (2).jpg"></div>
+        <div class="swiper-slide"><img src="casal3 (2).jpg"></div>
+        <div class="swiper-slide"><img src="casal5.jpg"></div>
+        <div class="swiper-slide"><img src="casal6.jpg"></div>
+        <div class="swiper-slide"><img src="casal3.jpg"></div>
+        <div class="swiper-slide"><img src="casal1.jpg"></div>
+        </div>
     </div>
     </section>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView:2,
+            spaceBetween: 10,
+            loop: true,
+            breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween: 15,
+                }
+            }
+            });
+    </script>
     
 </body>
 </html>
