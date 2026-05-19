@@ -13,12 +13,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
+.botoes{
+    margin-top: 15px;
+}
 .botoes button{
-    color: red;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px
 }
 .cabecalho{
     background-color: #181818;
-    padding: 1rem 1rem;
+    padding: 0;
     display: flex;
     align-items: center;
     align-content: center;
@@ -29,7 +38,8 @@ body{
     margin-top: 0.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 8px;
+    padding: 5px;
 }
 .cabecalho nav a{
     color: #E5E5E5;
@@ -66,5 +76,25 @@ body{
     color:#E5E5E5;
     line-height: 25px;
     
+}
+.momemtos{
+    padding: 1.5rem 1rem;
+}
+.momentos h2{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.swiper{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.swiper-slide{
+    width: auto !important;
+}
+.swiper-slide img{
+    display: block;
+    width: 200px;
+    border-radius: 5px;
+    margin: auto 0;
 }
 
