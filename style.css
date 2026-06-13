@@ -16,6 +16,10 @@ body{
 .botoes{
     margin-top: 15px;
 }
+.indica img{
+    width: 20px;
+    height: 20px;
+}
 .botoes button{
     border-radius: 6px;
     background: #FFFFFF;
@@ -47,7 +51,7 @@ body{
 }
 .banner{
     position: relative;
-    background: url(casal6.jpg) no-repeat center center/cover;
+    background: url(imagens-nos/imag-fundo1.jpg) no-repeat center center/cover;
     padding: 100px 1rem 4rem;
 }
 .banner::after{
@@ -75,6 +79,7 @@ body{
 .descricao{
     color:#E5E5E5;
     line-height: 25px;
+     text-shadow: 4px 4px 10px black;
     
 }
 .momentos{
